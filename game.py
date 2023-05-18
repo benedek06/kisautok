@@ -18,12 +18,12 @@ display_height=600
 gamedisplays=pygame.display.set_mode((display_width,display_height))
 pygame.display.set_caption("kiasutok")
 clock=pygame.time.Clock()
-carimg=pygame.image.load('assets\\car.png')
-backgroundpic=pygame.image.load("assets\\grass.png")
-yellow_strip=pygame.image.load("assets\\road.png")
-strip=pygame.image.load("assets\\strip.png")
-intro_background=pygame.image.load("assets\\loadingscrren.png")
-instruction_background=pygame.image.load("assets\\loadingscrren.png")
+carimg=pygame.image.load('car.png')
+backgroundpic=pygame.image.load("grass.png")
+yellow_strip=pygame.image.load("road.png")
+strip=pygame.image.load("strip.png")
+intro_background=pygame.image.load("loadingscrren.png")
+instruction_background=pygame.image.load("loadingscrren.png")
 car_width=56
 pause=False
 
